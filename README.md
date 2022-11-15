@@ -1,7 +1,10 @@
 # chainlink-hack-2022-contracts
 Smart Contracts for chainlink hackaton 2022
+
 ## Notion Brain project (this this is a mess )
 https://duckdev.notion.site/ChainLink-Hack-64dc8c61986b44b0851bfda05175f9d4
+
+- Real repo of work: https://github.com/LeandroCDN/chainlink-hack-2022-contracts
 
 
 # Grid Bot On Chain
@@ -13,10 +16,8 @@ A simple grid bot on chain, against uniswap v3 contracts.
 
 ->**ChainLink Services**:
   
-   ~~ **Keepers** : *Used to create new registers to automations. Each five gridsBots is registered a new automations.*
-     
-   ~~ **Automatizations** : *To check if a swap is necessary, and to do it.*
- 
+   ~~ **Keepers** : *Used to create new registers to automations. Each five gridsBots is registered a new automations.*     
+   ~~ **Automatizations** : *To check if a swap is necessary, and to do it.* 
    ~~ **DataFeeds** : *Used to calculate prices in create a new grid, and compare prices to check if necessary a swap.*
  
  -> OpenZeppelin libraries

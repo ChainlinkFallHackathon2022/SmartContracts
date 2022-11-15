@@ -12,18 +12,18 @@ A simple grid bot on chain, against uniswap v3 contracts.
 
 
 ## Technologies used
--> Hardhat
 
 ->**ChainLink Services**:
   
-   ~~ **Keepers** : *Used to create new registers to automations. Each five gridsBots is registered a new automations.*     
+   ~~ **Keepers** : *Used to create new registers to automations. Each five gridsBots is registered a new automations.*    
    ~~ **Automatizations** : *To check if a swap is necessary, and to do it.* 
    ~~ **DataFeeds** : *Used to calculate prices in create a new grid, and compare prices to check if necessary a swap.*
+   
  
  -> OpenZeppelin libraries
-
- ->Uniswap V3 contracs
-
+ -> Uniswap V3 contracs
+ -> Hardhat
+  
 
 ## Contrac cycle
 
